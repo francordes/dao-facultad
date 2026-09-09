@@ -28,5 +28,7 @@ palabras_no_existen = sorted(palabras_quijote - palabras_diccionario)
 
 print("Palabras del libro que no estan en el diccionario:")
 
+
+# Mostrar todas las palabras que no existen en el diccionario (son muchas)
 for palabra in palabras_no_existen:
     print(palabra)
